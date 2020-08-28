@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "allure.test_allure1",
+    "children" : [ {
+      "name" : "test_allure",
+      "uid" : "92c66cd110871bb4",
+      "parentUid" : "e625697c2cf33da4e6ea8e7e56b2bb38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598087113934,
+        "stop" : 1598087113934,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "allure.test_allure1"
+  } ]
+}

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Aug 22 19:50:28 CST 2020","Sat Aug 22 19:50:28 CST 2020","1","allure","test_allure2","TestLogin","","","test_token",""
+"passed","Sat Aug 22 19:50:28 CST 2020","Sat Aug 22 19:50:28 CST 2020","0","allure","test_allure2","TestLogin","","","test_user",""
+"passed","Sat Aug 22 19:50:28 CST 2020","Sat Aug 22 19:50:28 CST 2020","4","allure","test_allure2","TestLogin","","","test_pwd",""

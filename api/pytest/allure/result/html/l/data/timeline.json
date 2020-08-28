@@ -1,0 +1,60 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-TIPOTAF",
+    "children" : [ {
+      "name" : "13620-MainThread",
+      "children" : [ {
+        "name" : "test_allure",
+        "uid" : "3480f7e56bfc2ac7",
+        "parentUid" : "d6049bf1c925a34e3735ce048f1cafb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598086018270,
+          "stop" : 1598086018270,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d6049bf1c925a34e3735ce048f1cafb3"
+    }, {
+      "name" : "7400-MainThread",
+      "children" : [ {
+        "name" : "test_allure",
+        "uid" : "e8b4f315a4f1e608",
+        "parentUid" : "f426e3e2f334fd9473e7cf14591a697c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598086006542,
+          "stop" : 1598086006542,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f426e3e2f334fd9473e7cf14591a697c"
+    }, {
+      "name" : "2924-MainThread",
+      "children" : [ {
+        "name" : "test_allure",
+        "uid" : "92c66cd110871bb4",
+        "parentUid" : "90651a59b71d5d210a4bce21e38031ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598087113934,
+          "stop" : 1598087113934,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90651a59b71d5d210a4bce21e38031ab"
+    } ],
+    "uid" : "e4cc047d3fffc633d7cf1492740428b4"
+  } ]
+}

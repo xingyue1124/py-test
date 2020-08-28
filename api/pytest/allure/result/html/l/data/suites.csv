@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Aug 22 17:05:13 CST 2020","Sat Aug 22 17:05:13 CST 2020","0","allure","test_allure1","","","","test_allure",""

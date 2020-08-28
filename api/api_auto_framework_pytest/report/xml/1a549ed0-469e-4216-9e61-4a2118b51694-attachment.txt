@@ -1,0 +1,5 @@
+[32mINFO    [0m root:common_pytest.py:25 用例数据拆包开始。。。。
+[32mINFO    [0m root:common_pytest.py:29 替换body中的空格换行特殊字符开始。。。。
+[32mINFO    [0m root:common_pytest.py:32 转换存在可变变量开始。。。。
+[32mINFO    [0m root:request_common.py:10 执行统一请求方法开始。。。。。。。。。。。。。
+[32mINFO    [0m root:operator.py:9 执行post请求开始。。。。。。。。。。。。。

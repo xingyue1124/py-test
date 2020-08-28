@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Aug 23 13:33:50 CST 2020","Sun Aug 23 13:33:50 CST 2020","147","frameworkddt","common_pytest","Test_Case","","","test_commonapi[case2]",""
+"passed","Sun Aug 23 13:33:50 CST 2020","Sun Aug 23 13:33:50 CST 2020","158","frameworkddt","common_pytest","Test_Case","","","test_commonapi[case3]",""
+"passed","Sun Aug 23 13:33:50 CST 2020","Sun Aug 23 13:33:50 CST 2020","155","frameworkddt","common_pytest","Test_Case","","","test_commonapi[case0]",""
+"passed","Sun Aug 23 13:33:50 CST 2020","Sun Aug 23 13:33:50 CST 2020","167","frameworkddt","common_pytest","Test_Case","","","test_commonapi[case1]",""

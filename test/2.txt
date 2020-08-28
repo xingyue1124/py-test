@@ -1,0 +1,6 @@
+# 继续添加多个文件为附件
+att2=MIMEText(open('2.txt',"rb").read(),"base64","utf-8")
+att2["Content-Type"] = 'application/octet-stream'
+# 这里的filename可以任意写，写什么名字，邮件中显示什么名字
+att2["Content-Disposition"] = 'attachment; filename="2.txt"'
+message.attach(att2)

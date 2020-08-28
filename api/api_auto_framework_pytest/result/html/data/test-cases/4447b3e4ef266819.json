@@ -1,0 +1,73 @@
+{
+  "uid" : "4447b3e4ef266819",
+  "name" : "test_commonapi[case3]",
+  "fullName" : "frameworkddt.common_pytest.Test_Case#test_commonapi",
+  "historyId" : "8963d06b28bb054cc4c80fe9985382fe",
+  "time" : {
+    "start" : 1598158910562,
+    "stop" : 1598158910730,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ba33679178512528",
+      "name" : "log",
+      "source" : "ba33679178512528.txt",
+      "type" : "text/plain",
+      "size" : 2435
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "frameworkddt"
+  }, {
+    "name" : "suite",
+    "value" : "common_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TIPOTAF"
+  }, {
+    "name" : "thread",
+    "value" : "11160-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "frameworkddt.common_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "['http://39.98.138.157:5000/api/addcart', '{\"userid\":$uservar.data[0].userid$,\"openid\":\"$uservar.data[0].openid$\",\"productid\":$productvar.data[0].productid$}', '{\"token\": \"$loginvar.token$\",\"content-type\": \"application/json\"}', 'post', 'json', 'success', '$.result', '/']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4447b3e4ef266819.json",
+  "parameterValues" : [ "['http://39.98.138.157:5000/api/addcart', '{\"userid\":$uservar.data[0].userid$,\"openid\":\"$uservar.data[0].openid$\",\"productid\":$productvar.data[0].productid$}', '{\"token\": \"$loginvar.token$\",\"content-type\": \"application/json\"}', 'post', 'json', 'success', '$.result', '/']" ]
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "frameworkddt",
+    "children" : [ {
+      "name" : "common_pytest",
+      "children" : [ {
+        "name" : "Test_Case",
+        "children" : [ {
+          "name" : "test_commonapi[case0]",
+          "uid" : "7b4d576329fa3e86",
+          "parentUid" : "18ad8348d8d0389957abac00124e1d39",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598160830141,
+            "stop" : 1598160830296,
+            "duration" : 155
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "['http://39.98.138.157:5000/api/login', '{\"username\":\"admin\",\"password\":\"123456\"}', '{\"content-type\": \"application/json\"}', 'post', 'json', 'success', '$.msg', 'loginvar']" ]
+        }, {
+          "name" : "test_commonapi[case1]",
+          "uid" : "f27c383140162720",
+          "parentUid" : "18ad8348d8d0389957abac00124e1d39",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598160830304,
+            "stop" : 1598160830471,
+            "duration" : 167
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "['http://39.98.138.157:5000/api/getproductinfo?productid=8888', None, None, 'get', 'url', '8888', \"$.data[0]['productid']\", 'productvar']" ]
+        }, {
+          "name" : "test_commonapi[case2]",
+          "uid" : "1f33f4d0cedbfa2a",
+          "parentUid" : "18ad8348d8d0389957abac00124e1d39",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598160830496,
+            "stop" : 1598160830643,
+            "duration" : 147
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "['http://39.98.138.157:5000/api/getuserinfo', None, '{\"token\": \"$loginvar.token$\"}', 'get', 'url', '17890', \"$.data[0]['userid']\", 'uservar']" ]
+        }, {
+          "name" : "test_commonapi[case3]",
+          "uid" : "83d75e68ed5e9dfb",
+          "parentUid" : "18ad8348d8d0389957abac00124e1d39",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598160830653,
+            "stop" : 1598160830811,
+            "duration" : 158
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "['http://39.98.138.157:5000/api/addcart', '{\"userid\":$uservar.data[0].userid$,\"openid\":\"$uservar.data[0].openid$\",\"productid\":$productvar.data[0].productid$}', '{\"token\": \"$loginvar.token$\",\"content-type\": \"application/json\"}', 'post', 'json', 'success', '$.result', '/']" ]
+        } ],
+        "uid" : "18ad8348d8d0389957abac00124e1d39"
+      } ],
+      "uid" : "ab1dd6a889de0186a5cfefbc1825a3e7"
+    } ],
+    "uid" : "f3ca574cbcd4122051c088e661acddef"
+  } ]
+}

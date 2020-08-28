@@ -1,0 +1,9 @@
+-
+  open_browser:
+    loc: id
+    path: kw
+    txt: ceshi111
+  input:
+    loc: id
+    path: su
+    txt: ceshi222

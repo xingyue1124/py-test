@@ -1,0 +1,73 @@
+{
+  "uid" : "e4a2c04130abfcec",
+  "name" : "test_commonapi[case0]",
+  "fullName" : "frameworkddt.common_pytest.Test_Case#test_commonapi",
+  "historyId" : "5ae74a0f35ed57ea3c3d44e5fcccf098",
+  "time" : {
+    "start" : 1598160572497,
+    "stop" : 1598160572681,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4bb360a07517de0a",
+      "name" : "log",
+      "source" : "4bb360a07517de0a.txt",
+      "type" : "text/plain",
+      "size" : 435
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "frameworkddt"
+  }, {
+    "name" : "suite",
+    "value" : "common_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TIPOTAF"
+  }, {
+    "name" : "thread",
+    "value" : "13092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "frameworkddt.common_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "['http://39.98.138.157:5000/api/login', '{\"username\":\"admin\",\"password\":\"123456\"}', '{\"content-type\": \"application/json\"}', 'post', 'json', 'success', '$.msg', 'loginvar']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4a2c04130abfcec.json",
+  "parameterValues" : [ "['http://39.98.138.157:5000/api/login', '{\"username\":\"admin\",\"password\":\"123456\"}', '{\"content-type\": \"application/json\"}', 'post', 'json', 'success', '$.msg', 'loginvar']" ]
+}

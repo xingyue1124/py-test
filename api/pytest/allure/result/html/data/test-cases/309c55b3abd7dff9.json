@@ -1,0 +1,183 @@
+{
+  "uid" : "309c55b3abd7dff9",
+  "name" : "test_user",
+  "fullName" : "allure.test_allure2.TestLogin#test_user",
+  "historyId" : "99a5d4abc714916933fad63f7deb50bb",
+  "time" : {
+    "start" : 1598097028011,
+    "stop" : 1598097028011,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤一：获取用户名",
+      "time" : {
+        "start" : 1598097028011,
+        "stop" : 1598097028011,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录测试"
+  }, {
+    "name" : "story",
+    "value" : "登录注册"
+  }, {
+    "name" : "parentSuite",
+    "value" : "allure"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TIPOTAF"
+  }, {
+    "name" : "thread",
+    "value" : "14772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "allure.test_allure2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fecf918b219f81e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598096947185,
+        "stop" : 1598096947186,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "63b1f95bb1ea29a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598096922740,
+        "stop" : 1598096922741,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8f0a8d4a6582bd31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598096865962,
+        "stop" : 1598096865965,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "9d396a8ca91497d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598096853257,
+        "stop" : 1598096853258,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b7a06f7a49d8d9ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598096831620,
+        "stop" : 1598096831622,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "3f9606484a8efdf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598096761447,
+        "stop" : 1598096761448,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "55aeee012798ed5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598096606006,
+        "stop" : 1598096606007,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "952aace1857fa0d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598096595959,
+        "stop" : 1598096595959,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8fe8d036039921d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598096564862,
+        "stop" : 1598096564863,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "127b11b5d57ea008",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598096539316,
+        "stop" : 1598096539317,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4d5c4d7f21b2c23e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598096495103,
+        "stop" : 1598096495104,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "baf4ef322a8a2a9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598094455207,
+        "stop" : 1598094455208,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "309c55b3abd7dff9.json",
+  "parameterValues" : [ ]
+}
